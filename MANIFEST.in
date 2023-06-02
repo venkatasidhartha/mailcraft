@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include mailcraft *.css
+recursive-include mailcraft *.csv
+recursive-include mailcraft *.html
+recursive-include mailcraft *.ico
+recursive-include mailcraft *.js
+recursive-include mailcraft *.json
+recursive-include mailcraft *.md
+recursive-include mailcraft *.png
+recursive-include mailcraft *.py
+recursive-include mailcraft *.svg
+recursive-include mailcraft *.txt
+recursive-exclude mailcraft *.pyc
