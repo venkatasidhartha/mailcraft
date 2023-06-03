@@ -1,0 +1,91 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-06-02 23:59:16.863347",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "switch",
+  "section_break_jovlk",
+  "username",
+  "password",
+  "column_break_vfnsb",
+  "api_key",
+  "service_url",
+  "template_section",
+  "parent_template"
+ ],
+ "fields": [
+  {
+   "default": "1",
+   "fieldname": "switch",
+   "fieldtype": "Check",
+   "label": "Switch "
+  },
+  {
+   "fieldname": "section_break_jovlk",
+   "fieldtype": "Section Break",
+   "label": "Credentials"
+  },
+  {
+   "fieldname": "username",
+   "fieldtype": "Data",
+   "label": "Username"
+  },
+  {
+   "fieldname": "column_break_vfnsb",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "password",
+   "fieldtype": "Data",
+   "label": "Password"
+  },
+  {
+   "fieldname": "api_key",
+   "fieldtype": "Password",
+   "label": "Api Key"
+  },
+  {
+   "fieldname": "service_url",
+   "fieldtype": "Data",
+   "label": "Service Url"
+  },
+  {
+   "fieldname": "template_section",
+   "fieldtype": "Section Break",
+   "label": "Template"
+  },
+  {
+   "fieldname": "parent_template",
+   "fieldtype": "Code",
+   "label": "Parent Template",
+   "options": "HTML"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2023-06-03 00:14:25.209927",
+ "modified_by": "Administrator",
+ "module": "MailCraft",
+ "name": "MailCraft Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
