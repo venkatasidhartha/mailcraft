@@ -11,10 +11,14 @@
   "section_break_jovlk",
   "username",
   "password",
+  "sender_email_address",
   "column_break_vfnsb",
   "api_key",
   "service_url",
+  "sender_name",
   "template_section",
+  "template_mapping",
+  "button_template",
   "parent_template"
  ],
  "fields": [
@@ -63,12 +67,32 @@
    "fieldtype": "Code",
    "label": "Parent Template",
    "options": "HTML"
+  },
+  {
+   "fieldname": "sender_email_address",
+   "fieldtype": "Data",
+   "label": "Sender Email Address"
+  },
+  {
+   "fieldname": "sender_name",
+   "fieldtype": "Data",
+   "label": "Sender Name"
+  },
+  {
+   "fieldname": "template_mapping",
+   "fieldtype": "Code",
+   "label": "Template Mapping"
+  },
+  {
+   "fieldname": "button_template",
+   "fieldtype": "Code",
+   "label": "Button Template"
   }
  ],
  "index_web_pages_for_search": 1,
  "issingle": 1,
  "links": [],
- "modified": "2023-06-03 00:14:25.209927",
+ "modified": "2023-06-03 20:27:48.283196",
  "modified_by": "Administrator",
  "module": "MailCraft",
  "name": "MailCraft Settings",
